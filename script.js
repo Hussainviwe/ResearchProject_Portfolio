@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     // Fade-in sections
-    const animateElements = document.querySelectorAll('.card, .comp-card, .timeline-item, .team-card, .section-header, .doc-item-card, .contact-card, .contact-form-wrapper');
+    const animateElements = document.querySelectorAll('.card, .comp-card, .timeline-item, .team-card, .section-header, .doc-item-card, .contact-card, .contact-form-wrapper, .video-card');
     
     // Add initial hidden states via JS to avoid flashing
     animateElements.forEach(el => {
