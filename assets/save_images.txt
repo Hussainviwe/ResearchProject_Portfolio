@@ -1,0 +1,2 @@
+// Save image_2 as assets/logo.png
+// Save image_1 as assets/team_group.png
