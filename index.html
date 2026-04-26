@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashewSense – Integrated System for Cashew Cultivation</title>
+    <meta name="description"
+        content="An Integrated Smart System for Cashew Cultivation featuring AI-driven soil analysis, grading, and disease detection.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/logo.jpeg" alt="CashewSense Logo" class="nav-logo-img">
+                <span>CashewSense</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#domain">Domain</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#milestones">Milestones</a></li>
+                <li><a href="#about">Team</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container grid">
+                <div class="hero-content">
+                    <span class="badge">Research & Innovation</span>
+                    <h1>An Integrated Smart System for <span>Cashew Cultivation</span></h1>
+                    <p>Healthy trees, stronger yields. Empowering farmers with AI-driven insights for soil health, nut
+                        grading, and precision disease management.</p>
+                    <div class="hero-actions">
+                        <a href="#components" class="btn-primary">Explore Features</a>
+                        <a href="#domain" class="btn-secondary">Research Overview</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="assets/hero.png" alt="Cashew Cultivation">
+                        <div class="floating-stats">
+                            <div class="stat-card">
+                                <i data-lucide="activity"></i>
+                                <div>
+                                    <span>Accuracy</span>
+                                    <strong>98.5%</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Domain Section -->
+        <section id="domain" class="domain section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Research Domain</h2>
+                    <p>Addressing the critical challenges in modern cashew farming through data-driven integration.</p>
+                </div>
+                <div class="grid domain-grid">
+                    <div class="card">
+                        <i data-lucide="book-open"></i>
+                        <h3>Introduction to the Problem</h3>
+                        <p><strong>Industry Scale:</strong> Sri Lanka's plantation sector relies heavily on manual
+                            labor, leading to quality variations.<br>
+                            <strong>Challenges:</strong> Labor shortages and limited mechanization reduce supply chain
+                            value.<br>
+                            <strong>Errors:</strong> Inaccurate disease detection and subjective nut grading cause
+                            financial losses.<br>
+                            <strong>Stakeholders:</strong> Impacts over 500,000 smallholder farmers lacking data-driven
+                            tools.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i data-lucide="search"></i>
+                        <h3>Research Gap</h3>
+                        <p>Most existing solutions are limited to lab environments or isolated functions. There is a
+                            significant lack of explainable AI models for real Sri Lankan field conditions, multilingual
+                            support for rural farmers, and alignment with technical guidelines for standardized grading.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i data-lucide="target"></i>
+                        <h3>Main Objective</h3>
+                        <p>To develop an Integrated Smart System for Cashew Cultivation—a hybrid AI-IoT platform
+                            automating soil health analysis, disease detection, pest identification, and quality
+                            grading. The goal is to improve efficiency, standardize nut quality for export, and reduce
+                            manual errors.</p>
+                    </div>
+                    <div class="card">
+                        <i data-lucide="cpu"></i>
+                        <h3>Solution Overview</h3>
+                        <p>A hybrid, trilingual AI-IoT system providing real-time insights in under 5 seconds utilizing
+                            a Flask API and Flutter app.</p>
+                        <div class="tech-stack" style="margin-top: 1rem;">
+                            <span class="tech-tag">CNN & YOLOv8</span>
+                            <span class="tech-tag">IoT Sensors</span>
+                            <span class="tech-tag">Flask & Flutter</span>
+                            <span class="tech-tag">Sinhala, Tamil, English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Components Section -->
+        <section id="components" class="components section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Components</h2>
+                    <p>Our integrated system is built on four revolutionary pillars, combining advanced sensing with AI
+                        intelligence.</p>
+                </div>
+                <div class="components-grid">
+                    <!-- Component 1 -->
+                    <div class="comp-card">
+                        <div class="comp-image-wrapper">
+                            <img src="assets/iot.png" alt="Soil Analysis">
+                        </div>
+                        <div class="comp-content">
+                            <div class="comp-icon"><i data-lucide="test-tube-2"></i></div>
+                            <h3>Soil Analysis & Health Scoring</h3>
+                            <p>Real-time analysis of NPK levels (Nitrogen, Phosphorus, Potassium), pH, and moisture
+                                using integrated IoT sensors to provide localized health scores.</p>
+                            <span class="learn-more">Learn more <i data-lucide="arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <!-- Component 2 -->
+                    <div class="comp-card">
+                        <div class="comp-image-wrapper">
+                            <img src="assets/grading.png" alt="Cashew Grading">
+                        </div>
+                        <div class="comp-content">
+                            <div class="comp-icon"><i data-lucide="layout-grid"></i></div>
+                            <h3>Automated Cashew Nut Grading</h3>
+                            <p>Deep learning vision system to classify nuts into Sri Lankan standard grades based on
+                                precise size, color, and texture algorithms.</p>
+                            <span class="learn-more">Learn more <i data-lucide="arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <!-- Component 3 -->
+                    <div class="comp-card">
+                        <div class="comp-image-wrapper">
+                            <img src="assets/disease.png" alt="Disease Detection">
+                        </div>
+                        <div class="comp-content">
+                            <div class="comp-icon"><i data-lucide="shield-check"></i></div>
+                            <h3>Disease Detection & Remedies</h3>
+                            <p>Detection of diseases like Anthracnose and Gummosis using leaf and nut imaging, followed
+                                by biological remedy recommendations.</p>
+                            <span class="learn-more">Learn more <i data-lucide="arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <!-- Component 4 -->
+                    <div class="comp-card">
+                        <div class="comp-image-wrapper">
+                            <img src="assets/iot.png" alt="Pest Detection">
+                        </div>
+                        <div class="comp-content">
+                            <div class="comp-icon"><i data-lucide="bug"></i></div>
+                            <h3>Pest & Pesticide Recommendation</h3>
+                            <p>Early warning systems for Stem Borers and Tea Mosquito Bugs with precise pesticide dosage
+                                calculations to minimize chemical use.</p>
+                            <span class="learn-more">Learn more <i data-lucide="arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Milestones Section -->
+        <section id="milestones" class="milestones section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🌿 Project Milestones</h2>
+                    <p>Our comprehensive research journey and assessment timeline.</p>
+                </div>
+                <div class="biomentor-timeline">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-items">
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">July 2025</span>
+                                <h3>Project Topic Assessment</h3>
+                                <p>Initial topic assessment document submitted. Included research problem, objectives,
+                                    and task breakdown.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">August 2025</span>
+                                <h3>Project Proposal Presentation</h3>
+                                <p>Presented the proposed research to a panel of judges.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">August 2025</span>
+                                <h3>Project Proposal Report</h3>
+                                <p>In-depth analysis and proposed solution submitted as a formal report.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">December 2025</span>
+                                <h3>Progress Presentation 1</h3>
+                                <p>Evaluation of 50% completion of the proposed solution.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">February 2026</span>
+                                <h3>Research Paper Draft</h3>
+                                <p>Submitted draft research paper for supervisor review.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">March 2026</span>
+                                <h3>Final Thesis Submission</h3>
+                                <p>Group and individual thesis documents submitted for evaluation.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">March 2026</span>
+                                <h3>Progress Presentation 2</h3>
+                                <p>Evaluation of 90% project completion.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">May 2026</span>
+                                <h3>Website Assessment</h3>
+                                <p>Research website submitted for review.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item active">
+                            <div class="timeline-node"></div>
+                            <div class="timeline-card">
+                                <span class="milestone-date">May 2025</span>
+                                <h3>Final Presentation & Viva</h3>
+                                <p>Final evaluation of the completed product by judges.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Documents Section -->
+        <section id="documents" class="documents section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>📚 Project Documents</h2>
+                    <p>Access our detailed research publications, project management docs, and presentation materials.
+                    </p>
+                </div>
+
+                <div class="document-categories">
+                    <!-- Project Proposal Category -->
+                    <div class="doc-cat-group">
+                        <h3 class="cat-title">Project Proposal</h3>
+                        <div class="doc-list-grid">
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Proposal Report & Charter</h4>
+                                        <p>Project initiation & charter submission</p>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/charter form submission.pdf" target="_blank"
+                                        rel="noopener noreferrer">View →</a>
+                                    <a href="assets/charter form submission.pdf" download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Proposal Document</h4>
+                                        <p>Research overview & gap analysis</p>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/presentations slides/Introduction to the Problem.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/presentations slides/Introduction to the Problem.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Check List Documents</h4>
+                                        <p>Project validation checklist</p>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/TAF_25-26J-175.pdf" target="_blank" rel="noopener noreferrer">View
+                                        →</a>
+                                    <a href="assets/TAF_25-26J-175.pdf" download>Download ↓</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final Reports Category -->
+                    <div class="doc-cat-group">
+                        <h3 class="cat-title">Final Reports</h3>
+                        <div class="doc-list-grid">
+                            <div class="doc-item-card main-highlight">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Main Final Document</h4>
+                                        <p>Comprehensive Research Thesis</p>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/presentations slides/An Integrated Smart System for Cashew Cultivation.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/presentations slides/An Integrated Smart System for Cashew Cultivation.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Usman M.H - Individual Report</h4>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/propasal_report/IT22351104_Usman.M.H_propasal report1 .pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/propasal_report/IT22351104_Usman.M.H_propasal report1 .pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Mithushh P - Individual Report</h4>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/propasal_report/IT22180902_Mithushh.P_propasal_report.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/propasal_report/IT22180902_Mithushh.P_propasal_report.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Sanoch M - Individual Report</h4>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/propasal_report/IT22159694_Sanoch M_Project Proposal Report.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/propasal_report/IT22159694_Sanoch M_Project Proposal Report.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Thimothy K.L - Individual Report</h4>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/propasal_report/IT22206428 Thimothy K L-Proposal Report.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/propasal_report/IT22206428 Thimothy K L-Proposal Report.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Presentations Category -->
+                    <div class="doc-cat-group">
+                        <h3 class="cat-title">Presentations</h3>
+                        <div class="doc-list-grid">
+                            <div class="doc-item-card">
+                                <div class="doc-main">
+                                    <span class="doc-emoji">📄</span>
+                                    <div class="doc-meta">
+                                        <h4>Project Presentation</h4>
+                                        <p>Proposal Slides (PDF)</p>
+                                    </div>
+                                </div>
+                                <div class="doc-actions-links">
+                                    <a href="assets/presentations slides/Proposal-Presentation-Template.pptx.pdf"
+                                        target="_blank" rel="noopener noreferrer">View →</a>
+                                    <a href="assets/presentations slides/Proposal-Presentation-Template.pptx.pdf"
+                                        download>Download ↓</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        </section>
+        <!-- Team Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>The Research Team</h2>
+                    <p>Dedicated experts working at the intersection of technology and agriculture.</p>
+                </div>
+                <div class="team-grid top-team">
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/supervisor.jpeg" alt="Ms. Shashika Lokuliyana">
+                        </div>
+                        <h3>Ms. Shashika Lokuliyana</h3>
+                        <span>Project Supervisor</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/co_supervisor.jpeg" alt="Ms. Suranjini Silva">
+                        </div>
+                        <h3>Ms. Suranjini Silva</h3>
+                        <span>Co-Supervisor</span>
+                    </div>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/member1.png" alt="Mithushh P">
+                        </div>
+                        <h3>Mithushh P</h3>
+                        <span>Team Member</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/member2.jpg" alt="Usman M.H">
+                        </div>
+                        <h3>Usman M.H</h3>
+                        <span>Team Member</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/member3.png" alt="Sanoch M">
+                        </div>
+                        <h3>Sanoch M</h3>
+                        <span>Team Member</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="member-img-wrapper">
+                            <img src="assets/member4.png" alt="Thimothy K.L">
+                        </div>
+                        <h3>Thimothy K.L</h3>
+                        <span>Team Member</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about our research or interested in collaboration? Reach out to us today.</p>
+                </div>
+                <div class="grid contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone Number</h4>
+                                <p>+94 77 453 8542</p>
+                                <p>+94 76 763 0326</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>cashewsense@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>SLIIT, New Kandy Road, Malabe,<br>Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="What is this regarding?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message Template</label>
+                                <textarea id="message" rows="5" placeholder="Your message or inquiry..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Send
+                                Message <i data-lucide="send"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo">
+                        <img src="assets/logo.jpeg" alt="CashewSense Logo" class="footer-logo-img">
+                        <span>CashewSense</span>
+                    </div>
+                    <p>Healthy trees, stronger yields. Empowering agriculture through smart technology and data-driven
+                        solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#domain">Domain</a></li>
+                        <li><a href="#components">Components</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i data-lucide="github"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CashewSense. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
