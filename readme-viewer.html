@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README Viewer - CashewSense</title>
+    <!-- Lightweight Markdown renderer -->
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .markdown-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 30px;
+            color: #10b981;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: #059669;
+        }
+        .back-link svg {
+            margin-right: 8px;
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+            .markdown-container {
+                padding: 20px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-container">
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Back to Home
+        </a>
+        
+        <!-- zero-md renders the markdown file dynamically -->
+        <zero-md src="assets/propasal_report/README.md">
+            <template>
+                <!-- Add custom styling to handle images inside the rendered markdown -->
+                <style>
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 8px;
+                        margin: 20px 0;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                    }
+                    h1, h2, h3 {
+                        color: #1f2937;
+                        margin-top: 1.5em;
+                        margin-bottom: 0.5em;
+                    }
+                    h1 {
+                        border-bottom: 2px solid #f3f4f6;
+                        padding-bottom: 10px;
+                    }
+                    p {
+                        color: #4b5563;
+                        line-height: 1.7;
+                    }
+                    ul, ol {
+                        color: #4b5563;
+                        line-height: 1.7;
+                    }
+                    hr {
+                        border: 0;
+                        height: 1px;
+                        background: #e5e7eb;
+                        margin: 2em 0;
+                    }
+                    strong {
+                        color: #111827;
+                    }
+                </style>
+            </template>
+        </zero-md>
+    </div>
+</body>
+</html>
